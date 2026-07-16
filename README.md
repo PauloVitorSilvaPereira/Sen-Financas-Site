@@ -26,4 +26,4 @@ Uma empresa ficticia solicitou a criação do front-end de um site. O projeto n�
 
 
 
-![Demonstração do Projeto](assets/Sen Finanças - Google Chrome 2026-07-16 12-14-04.gif)
+![Demonstração do Projeto](assets/gifDemonstracao.gif)
