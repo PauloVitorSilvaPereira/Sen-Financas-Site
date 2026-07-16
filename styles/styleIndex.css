@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu {
+    background-color: #54E4FF;
+    width: 390px;
+    display: block;
+}
+
+.logoImg {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+.navegaçãoLinks {
+    display: flex;
+    align-items: center;         
+}
+
+.inicialImg {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.inicialTexto {
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+    text-decoration: none;
+}
+
+.emprestimoImg {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.emprestimoTexto {
+    margin-left: 29px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+    text-decoration: none;
+}
+
+.clienteImg {
+    width: 80px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.clienteTexto {
+    margin-left: 23px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+    text-decoration: none;
+}
+
+.contatoInfo {
+    display: block;
+    align-items: center;
+    margin-top: 190px;
+    margin-left: 18px;
+}
+
+.emailInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.emailImg {
+    width: 55px;
+    height: 50px;
+    margin-left: 9px;
+}
+
+.emailTexto {
+    margin-left: 34px;
+    padding-right: 15px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+}
+
+.phoneInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 19px;
+}
+
+.phoneImg {
+    width: 45px;
+    height: 45px;
+}
+
+.phoneTexto {
+    margin-left: 34px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+}
+
+.redesLinks {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 80px;
+    padding-bottom: 20px;
+    gap: 85px;
+}
+
+.instaImg {
+    width: 62px;
+    height: 58px;
+    margin-bottom: 2px;
+}
+
+.faceImg {
+    width: 45px;
+    height: 45px;
+}
+
+.destaque {
+    margin-left: 380px;
+    margin-top: 25px;
+}
+
+
+.destaqueImg {
+    width: 854px;
+    height: 480px;
+
+}
+
+.info {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+    gap: 50px;
+}
+
+.InfoImgs {
+    width: 356px;
+    height: 200px;
+}
+
+.titulo {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6CBECC;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.subTitulo {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+}
+
+.texto {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+    margin-top: 2px;
+}

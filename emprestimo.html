@@ -1,0 +1,110 @@
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/styleEmprestimo.css">
+    <title>Sen Finanças</title>
+    <link rel="icon" type="image/png" href="assets/Logo.png">
+</head>
+<body>
+    <nav class="menu">
+        <div class="logo">
+            <a href="index.html" class="logoLink">
+                <img src="assets/Logo.png" alt="Logo da empresa" class="logoImg">
+            </a>
+        </div>
+        <section class="menuLinks">
+            <div class="navegaçãoLinks">
+                <a href="index.html" class="inicialLogoLink">
+                    <img src="assets/Home.png" alt="Página inicial" class="inicialImg">
+                </a>
+                <a href="index.html" class="inicialTexto">Início</a>
+            </div>
+            <div class="navegaçãoLinks">
+                <a href="emprestimo.html" class="emprestimoLogoLink">
+                    <img src="assets/Money.png" alt="Página de empréstimos" class="emprestimoImg">
+                </a>
+                <a href="emprestimo.html" class="emprestimoTexto">Empréstimos</a>
+            </div>
+            <div class="navegaçãoLinks">
+                <a href="cliente.html" class="clienteLogoLink">
+                    <img src="assets/Cliente.png" alt="Página para se tornar cliente" class="clienteImg">
+                </a>
+                <a href="cliente.html" class="clienteTexto">Seja Nosso Cliente</a>
+            </div>
+        </section>
+        <section class="contatoInfo">
+            <div class="emailInfo">
+                <img src="assets/Email.png" alt="Ícone de e-mail" class="emailImg">
+                <p class="emailTexto">senfinanças@sen.com</p>
+            </div>
+            <div class="phoneInfo">
+                <img src="assets/Phone.png" alt="Ícone de telefone" class="phoneImg">
+                <p class="phoneTexto">(21) 91234-5678</p>
+            </div>
+        </section>
+        <div class="redesLinks">
+            <a href="https://www.instagram.com" target="_blank" class="instaLink">
+                <img src="assets/Insta.png" alt="Página do Instagram" class="instaImg">
+            </a>
+            <a href="https://www.facebook.com" target="_blank" class="faceLink">
+                <img src="assets/Face.png" alt="Página do Facebook" class="faceImg">
+            </a>
+        </div>
+    </nav>
+    <main class="main">
+        <section class="emprestimos">
+            <div class="emprestimosDIV">
+                <h2 class="emprestimoTitulo">Empréstimo Pessoal</h2>
+                <p class="emprestimoDescricao">Conte com crédito rápido, condições flexíveis e um processo simples para organizar suas finanças ou investir nos seus objetivos.</p>
+            </div>
+            <div class="emprestimosDIV">
+                <h2 class="emprestimoTitulo">Empréstimo Consignado</h2>
+                <p class="emprestimoDescricao">Ideal para aposentados, pensionistas e servidores, com desconto direto na folha de pagamento e maior facilidade na aprovação.</p>
+            </div>
+        </section>
+        <div class="simulacao">
+            <h1 class="simulacaoTitulo">Simulação</h1>
+            <form action="simulacaoDeEmprestimo" method="POST">
+                <label class="tipoDeEmprestimo">Tipo de Empréstimo: </label>
+                <input type="text" name="tipo_emprestimo" />
+                <label class="espacamento">Valor: </label>
+                <select name="valor">
+                    <option value="1000">R$ 1.000,00</option>
+                    <option value="5000">R$ 5.000,00</option>
+                    <option value="10000">R$ 10.000,00</option>
+                    <option value="20000">R$ 20.000,00</option>
+                    <option value="50000">R$ 50.000,00</option>
+                    <option value="100000">R$ 100.000,00</option>
+                </select>
+                <br/>
+                <label>Meses para o Pagamento: </label>
+                <input type="number" name="meses_pagamento" />
+                <input type="submit" value="Resultado" class="espacamento botao"/>
+        </form>
+        </div>
+        <div class="interesse">
+            <h1 class="interesseTitulo">Ficou<br/> interessado?</h1>
+            <button onclick="window.location.href='cliente.html'" class="interesseBotao">Seja nosso cliente</button>
+        </div>
+        <section class="perguntasFrequentes">
+            <h1 class="perguntasFrequentesTitulo">Perguntas Frequentes</h1>
+            <div class="perguntasFrequentes1">
+                <p class="perguntasFrequentesPergunta">Quais são os requisitos para solicitar um empréstimo?</p>
+                <img src="assets/setaDireita.png" alt="Seta para a direita" class="setaDireita">
+                <p class="perguntasFrequentesResposta">Para solicitar um empréstimo, é necessário apresentar um documento de identificação, CPF, comprovante de renda e comprovante de residência. Dependendo da modalidade escolhida, outros documentos poderão ser solicitados.</p>
+            </div>
+            <div class="perguntasFrequentes1">
+                <p class="perguntasFrequentesPergunta">Qual é o prazo de aprovação do empréstimo?</p>
+                <img src="assets/setaDireita.png" alt="Seta para a direita" class="setaDireita">
+                <p class="perguntasFrequentesResposta">O prazo de aprovação varia de acordo com o tipo de empréstimo e a documentação apresentada.</p>
+            </div>
+            <div class="perguntasFrequentes1">
+                <p class="perguntasFrequentesPergunta">Como posso acompanhar o status do meu empréstimo?</p>
+                <img src="assets/setaDireita.png" alt="Seta para a direita" class="setaDireita">
+                <p class="perguntasFrequentesResposta">Você pode acompanhar o andamento da sua solicitação por meio dos nossos canais de atendimento ou entrando em contato com nossa equipe, que fornecerá informações atualizadas sobre o processo.</p>
+            </div>
+        </section>
+    </main>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/emprestimo.js"></script>
+</body>

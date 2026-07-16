@@ -1,0 +1,91 @@
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/stylecCliente.css">
+    <title>Sen Finanças</title>
+    <link rel="icon" type="image/png" href="assets/Logo.png">
+</head>
+<body>
+    <nav class="menu">
+        <div class="logo">
+            <a href="index.html" class="logoLink">
+                <img src="assets/Logo.png" alt="Logo da empresa" class="logoImg">
+            </a>
+        </div>
+        <section class="menuLinks">
+            <div class="navegaçãoLinks">
+                <a href="index.html" class="inicialLogoLink">
+                    <img src="assets/Home.png" alt="Página inicial" class="inicialImg">
+                </a>
+                <a href="index.html" class="inicialTexto">Início</a>
+            </div>
+            <div class="navegaçãoLinks">
+                <a href="emprestimo.html" class="emprestimoLogoLink">
+                    <img src="assets/Money.png" alt="Página de empréstimos" class="emprestimoImg">
+                </a>
+                <a href="emprestimo.html" class="emprestimoTexto">Empréstimos</a>
+            </div>
+            <div class="navegaçãoLinks">
+                <a href="cliente.html" class="clienteLogoLink">
+                    <img src="assets/Cliente.png" alt="Página para se tornar cliente" class="clienteImg">
+                </a>
+                <a href="cliente.html" class="clienteTexto">Seja Nosso Cliente</a>
+            </div>
+        </section>
+        <section class="contatoInfo">
+            <div class="emailInfo">
+                <img src="assets/Email.png" alt="Ícone de e-mail" class="emailImg">
+                <p class="emailTexto">senfinanças@sen.com</p>
+            </div>
+            <div class="phoneInfo">
+                <img src="assets/Phone.png" alt="Ícone de telefone" class="phoneImg">
+                <p class="phoneTexto">(21) 91234-5678</p>
+            </div>
+        </section>
+        <div class="redesLinks">
+            <a href="https://www.instagram.com" target="_blank" class="instaLink">
+                <img src="assets/Insta.png" alt="Página do Instagram" class="instaImg">
+            </a>
+            <a href="https://www.facebook.com" target="_blank" class="faceLink">
+                <img src="assets/Face.png" alt="Página do Facebook" class="faceImg">
+            </a>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="clienteApresentacao">
+            <img src="assets/LogoCompleta.png" alt="Logo completa da empresa" class="logoCompleta">
+            <div class="clienteDescricaoDIV">
+                <h1 class="clienteTitulo">Conheça a<br/> Sen Finanças</h1>
+                <p class="clienteDescricao"> Na <b>Sen Finanças,</b> oferecemos soluções financeiras pensadas para facilitar a vida de pessoas e empresas. Trabalhamos com empréstimos, financiamentos, antecipação de recebíveis e outros serviços, sempre buscando as melhores condições, com agilidade, segurança e transparência.</p>
+                <p class="clienteDescricao">Nossa equipe está preparada para entender suas necessidades e oferecer um atendimento personalizado, ajudando você a encontrar a solução financeira ideal para cada momento.</p>
+                <p class="clienteDescricao">Se você procura confiança, praticidade e um parceiro comprometido com seus objetivos, a Sen Finanças é a escolha certa. Estamos prontos para ajudar você a transformar seus planos em realidade.</p>
+            </div>
+        </div>
+        <div class="clienteCadastro">
+            <h1 class="clienteCadastroTitulo">Cadastro de Cliente</h1>
+            <form action="cadastroCliente" method="POST">
+                <input type="text" id="nome" name="nome" value="Nome" required>
+                <br/>
+                <input type="email" id="email" name="email" value="Email" required>
+                <br/>
+                <input type="tel" id="telefone" name="telefone" value="Telefone" required>
+                <br/>
+                <select id="tipo_servico" name="tipo_servico" required>
+                    <option value="emprestimo"></option>
+                    <option value="emprestimo">Empréstimo</option>
+                    <option value="financiamento">Financiamento</option>
+                    <option value="antecipacao">Antecipação de Recibos</option>
+                </select>
+                <br/>
+                <label>Você é<br/> aposentado?</label>
+                <input type="radio" id="sim" name="sim" value="SIM">
+                <label for="sim">Sim</label>
+                <input type="radio" id="nao" name="nao" value="NAO">
+                <label for="nao">Não</label>
+                <br/>
+                <input type="submit" value="Cadastrar" class="botao"/>
+            </form>
+        </div>
+    </main>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>

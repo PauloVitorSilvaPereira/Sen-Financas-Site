@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu {
+    background-color: #54E4FF;
+    height: 1620px;
+    width: 390px;
+    display: block;
+}
+
+.logoImg {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+.navegaçãoLinks {
+    display: flex;
+    align-items: center;         
+}
+
+.inicialImg {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.inicialTexto {
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+    text-decoration: none;
+}
+
+.emprestimoImg {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.emprestimoTexto {
+    margin-left: 29px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+    text-decoration: none;
+}
+
+.clienteImg {
+    width: 80px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.clienteTexto {
+    margin-left: 23px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+    text-decoration: none;
+}
+
+.contatoInfo {
+    display: block;
+    align-items: center;
+    margin-top: 900px;
+    margin-left: 18px;
+}
+
+.emailInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.emailImg {
+    width: 55px;
+    height: 50px;
+    margin-left: 9px;
+}
+
+.emailTexto {
+    margin-left: 34px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+}
+
+.phoneInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 19px;
+}
+
+.phoneImg {
+    width: 45px;
+    height: 45px;
+}
+
+.phoneTexto {
+    margin-left: 34px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #454545;
+}
+
+.redesLinks {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 80px;
+    gap: 85px;
+}
+
+.instaImg {
+    width: 62px;
+    height: 58px;
+    margin-bottom: 2px;
+}
+
+.faceImg {
+    width: 45px;
+    height: 45px;
+}
+
+.emprestimos {
+    display: flex;
+    gap: 75px;
+}
+
+.emprestimosDIV {
+    display: block;
+    height: 250px;
+    width: 400px;
+    background-color: #6CBECC;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 75px;
+    margin-left: 220px;
+}
+
+.emprestimoTitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #223033;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.emprestimoDescricao {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #454545;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+}
+
+.simulacao {
+    display: block;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.simulacaoTitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #6CBECC;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #454545;
+    padding-right: 20px;
+}
+
+.tipoDeEmprestimo {
+    padding-right: 65px;
+}
+
+.espacamento {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+select {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #454545;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.botao {
+    margin-left: 250px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #6CBECC;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #54E4FF;
+}
+
+.interesse {
+    display: flex;
+    margin-top: 90px;
+    margin-left: 100px;
+    gap: 300px;
+}
+
+.interesseTitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #6CBECC;
+}
+
+.interesseBotao {
+    margin-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    color: #223033;
+    background-color: #6CBECC;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.interesseBotao:hover {
+    background-color: #54E4FF;
+}
+
+.perguntasFrequentes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.perguntasFrequentesTitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #6CBECC;
+    text-align: center;
+}
+
+.perguntasFrequentes1 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 15px 10px 20px;
+    border: 1px solid #6CBECC;
+    width: 555px;
+}
+
+.perguntasFrequentesPergunta {
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #223033;
+    font-weight: bold;
+    text-align: center;
+}
+
+.setaDireita {
+    width: 30px;
+    height: 30px;
+}
+
+.perguntasFrequentes2 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 15px 50px 20px;
+    border: 1px solid #6CBECC;
+    width: 555px;
+}
+
+.setaBaixo {
+    width: 30px;
+    height: 30px;
+    margin-left: 1px;
+}
+
+.perguntasFrequentesResposta {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #454545;
+}
+
+html {
+  scrollbar-width: thin; /* ou 'auto' */
+  scrollbar-color: #223033 #f1f1f1; /* cor da alça / cor do trilho */
+}
